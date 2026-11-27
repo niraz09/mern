@@ -6,7 +6,7 @@ import GuitarCard from "../components/GuitarCard"
 import { STORE_NAME, TYPES } from "../config"
 
 const Home = () => {
-  const [guitars, setGuitars] = useState([])
+  const [guitars, setGuitarse] = useState([])
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
